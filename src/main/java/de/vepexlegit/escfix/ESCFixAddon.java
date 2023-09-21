@@ -16,9 +16,7 @@ public class ESCFixAddon extends LabyModAddon {
         this.getApi().getEventManager().registerOnJoin(new Consumer<ServerData>() {
             @Override
             public void accept(ServerData serverData) {
-                if (LabyMod.getInstance().getPlayerId() != null) {
-                    LabyMod.getInstance().displayMessageInChat("§6" + serverData.getIp());
-                }
+                
             }
         });
 
