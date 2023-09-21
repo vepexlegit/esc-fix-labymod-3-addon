@@ -1,0 +1,10 @@
+{
+  "uuid": "%uuid%",
+  "name": "ESCAPE Fix",
+  "mainClass": "de.vepexlegit.escfix.ESCFixAddon",
+  "description": "ESCAPE Fix | 1.8.9",
+  "version": 1,
+  "author": "vepexlegit",
+  "category": 1,
+  "icon": "https://cdn2.vectorstock.com/i/thumb-large/89/51/square-grunge-red-fixed-stamp-vector-16208951.jpg"
+}
