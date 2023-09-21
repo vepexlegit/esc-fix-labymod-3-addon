@@ -2,7 +2,6 @@ package de.vepexlegit.escfix;
 
 import net.labymod.api.LabyModAddon;
 import net.labymod.api.events.MessageSendEvent;
-import net.labymod.main.LabyMod;
 import net.labymod.settings.elements.SettingsElement;
 import net.labymod.utils.Consumer;
 import net.labymod.utils.ServerData;
