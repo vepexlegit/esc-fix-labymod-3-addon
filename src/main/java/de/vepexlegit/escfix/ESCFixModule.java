@@ -46,19 +46,19 @@ public class ESCFixModule extends Module {
 
     @SubscribeEvent
     public void onGuiOpen(GuiScreenEvent.KeyboardInputEvent.Pre event) {
-        if (event.gui instanceof GuiScreenServerList && Keyboard.getEventKeyState() && Keyboard.getEventKey() == Keyboard.KEY_ESCAPE) {
+        if (event.getGui() instanceof GuiScreenServerList && Keyboard.getEventKeyState() && Keyboard.getEventKey() == Keyboard.KEY_ESCAPE) {
             mc.displayGuiScreen(new GuiMultiplayer(null));
         }
-        if (event.gui instanceof GuiScreenAddServer && Keyboard.getEventKeyState() && Keyboard.getEventKey() == Keyboard.KEY_ESCAPE) {
+        if (event.getGui() instanceof GuiScreenAddServer && Keyboard.getEventKeyState() && Keyboard.getEventKey() == Keyboard.KEY_ESCAPE) {
             mc.displayGuiScreen(new GuiMultiplayer(null));
         }
-        if (event.gui instanceof GuiCreateWorld && Keyboard.getEventKeyState() && Keyboard.getEventKey() == Keyboard.KEY_ESCAPE) {
-            mc.displayGuiScreen(new GuiSelectWorld(null));
+        if (event.getGui() instanceof GuiCreateWorld && Keyboard.getEventKeyState() && Keyboard.getEventKey() == Keyboard.KEY_ESCAPE) {
+            mc.displayGuiScreen(new GuiWorldSelection(null));
         }
-        if (event.gui instanceof GuiScreenRealmsProxy && Keyboard.getEventKeyState() && Keyboard.getEventKey() == Keyboard.KEY_ESCAPE) {
+        if (event.getGui() instanceof GuiScreenRealmsProxy && Keyboard.getEventKeyState() && Keyboard.getEventKey() == Keyboard.KEY_ESCAPE) {
             mc.displayGuiScreen(new GuiMainMenu());
         }
-        if (event.gui instanceof ModGuiScreenServerList && Keyboard.getEventKeyState() && Keyboard.getEventKey() == Keyboard.KEY_ESCAPE) {
+        if (event.getGui() instanceof ModGuiScreenServerList && Keyboard.getEventKeyState() && Keyboard.getEventKey() == Keyboard.KEY_ESCAPE) {
             mc.displayGuiScreen(new GuiMultiplayer(null));
         }
     }
