@@ -2,7 +2,7 @@
   "uuid": "%uuid%",
   "name": "ESCAPE Fix",
   "mainClass": "de.vepexlegit.escfix.ESCFixAddon",
-  "description": "ESCAPE Fix | 1.8.9",
+  "description": "ESCAPE Fix | 1.12.2",
   "version": 1,
   "author": "vepexlegit",
   "category": 1,
