@@ -1,6 +1,5 @@
 package de.vepexlegit.escfix;
 
-import net.labymod.gui.ModGuiMultiplayer;
 import net.labymod.gui.ModGuiScreenServerList;
 import net.labymod.ingamegui.Module;
 import net.labymod.settings.elements.ControlElement;
